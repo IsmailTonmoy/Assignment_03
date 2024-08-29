@@ -270,14 +270,72 @@
             </div>
 
         </section>
+        <!-- Challenge Part  -->
+       <section class="bg-zinc-400 px-60 pb-8">
+        <h1 class="text-3xl font-extrabold text-center py-4">
+            Clients and Projects 
+        </h1>
+        <div class="stats shadow p-10">
+            <div class="stat">
+              <div class="stat-figure text-primary">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  class="inline-block h-8 w-8 stroke-current">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                </svg>
+              </div>
+              <div class="stat-title font-extrabold">Our Total Clients</div>
+              <div class="stat-value text-primary">3.6K</div>
+              <div class="stat-desc">15% more than last year</div>
+            </div>
+          
+            <div class="stat">
+              <div class="stat-figure text-secondary">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  class="inline-block h-8 w-8 stroke-current">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                </svg>
+              </div>
+              <div class="stat-title">Deal with Clients</div>
+              <div class="stat-value text-secondary">2.6k</div>
+              <div class="stat-desc">21% more than last year</div>
+            </div>
+          
+            <div class="stat">
+              <div class="stat-figure text-secondary">
+                <div class="avatar online">
+                  <div class="w-16 rounded-full">
+                    <img src="assets/img1.png" />
+                  </div>
+                </div>
+              </div>
+              <div class="stat-value">86</div>
+              <div class="stat-title text-green-500">Project Done</div>
+              <div class="stat-desc text-secondary">10 tasks on the process</div>
+            </div>
+          </div>
+       </section>
 
         <!-- Connect -->
 
-      <section class="bg-[url('/assets/bg.jpg')]">
+      <section class="bg-[url('/assets/bg.jpg')] bg-cover ">
 
-        <div>
+        <div class="text-center py-16 space-y-4">
             <button class="bg-lime-100 p-2 rounded-full"><i class="fa-solid fa-arrow-right"></i> Let's Connect</button>
-            <h1>
+            <h1 class="text-3xl font-extrabold">
                 Let’s Discuss Next Project
 
             </h1>
@@ -287,12 +345,14 @@
             </p>
 
         </div>
-        <div class="grid grid-cols-2 gap-y-2 max-w-3xl max-h-full">
-            <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs rounded-full" />
-            <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs rounded-full" />
-            <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs rounded-full" />
-            <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs rounded-full" />
-            <input type="text" placeholder="Type here" class="input input-bordered w-full col-span-2 rounded-full"/>
+        <div class="grid grid-cols-2 gap-y-4 gap-x-4 justify-items-center px-20">
+            <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-md rounded-full p-8" />
+            <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-md rounded-full p-8 " />
+            <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-md rounded-full p-8" />
+            <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-md rounded-full p-8" />
+            <input type="text" placeholder="Type here" class="input input-bordered col-span-2 max-w-full w-full   rounded-full p-8" />
+            <button class="font-extrabold bg-lime-500 ">Send Mail</button>
+            
             
         </div>
         <div>
@@ -303,14 +363,39 @@
 
         </div>
       </section>
+      
 
-        
-
-       
-
-
+    
     </main>
-    <footer>
+    <footer class="bg-[#1C1C1C] text-center py-20 space-y-5">
+
+        <div class="space-y-5">
+            <a class="btn btn-ghost text-2xl font-extrabold text-white">
+                <i class="fa-solid fa-arrow-right bg-lime-200 rounded-full p-1 -rotate-45
+                 text-black"></i>Rinterio</a>
+                 <p class="text-gray-400">
+                    The barn house captivates with its blend of rustic charm and modern sophistication, 
+                    <br>featuring weathered wood, sleek metal accents.
+                 </p>
+
+        </div>
+
+
+        <ul class="menu menu-horizontal px-1 text-white space-x-20">
+            <li><a>Home</a></li>
+            <li><a>Service</a></li>
+            <li><a>Portfolio</a></li>
+            <li><a>Blogs</a></li>
+            <li><a>Contact Us</a></li>
+        </ul>
+
+        <div>
+            <a class="btn bg-lime-400 px-3 pr-6 rounded-full">Book Consult 
+                <i class="fa-solid fa-arrow-right  bg-black text-white rounded-full p-1 
+                -rotate-45"></i></a>
+        </div>
+
+
         
 
     </footer>
